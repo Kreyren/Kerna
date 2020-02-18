@@ -16,3 +16,10 @@ times 510-($-$$) db 0
 ; Magic number
 dw 0xaa55 
 ```
+## Requirements
+* nasm
+* qemu
+
+## To Create
+* Copy Assembly code and compile `nasm -f bin boot.asm -o boot.bin`
+* To Run `qemu-system-x86_64 boot.bin`
