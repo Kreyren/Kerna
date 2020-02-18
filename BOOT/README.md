@@ -6,7 +6,7 @@ e9 fd ff 00 00 00 00 00 00 00 00 00 00 00 00 00
 00 00 00 00 00 00 00 00 00 00 00 00 00 00 55 aa
 ```
 ## Assembly
-```
+```nasm
 ; Infinite loop (e9 fd ff)
 loop:
     jmp loop 
